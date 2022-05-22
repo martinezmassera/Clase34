@@ -9,7 +9,7 @@ const PORT = process.env.PORT || 8080
 
 app.get('/', (req, response) => {
     response.send(
-        "<h1 style=color:blue;>hola</h1>"
+        "<h1 style=color:blue;>hola</h1><br><a href=/productos >productos</a>"
     )
 })
 
